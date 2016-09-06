@@ -20,12 +20,15 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
+
                     <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
+                        <a href="#portfolio">Member</a>
                     </li>
+                    
                     <li class="page-scroll">
                         <a href="#about">About</a>
-                    </li>
+                    </li>  
+                    
                     <li class="page-scroll">
                         <a href="#Project">Project</a>
                     </li>
@@ -55,12 +58,12 @@
         </div>
     </header>
 
-    <!-- Portfolio Grid Section -->
+    <!-- Member Grid Section -->
     <section id="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
+                    <h2>Member</h2>
                     <hr class="star-primary">
                 </div>
             </div>
@@ -105,26 +108,7 @@
                         <img src="img/portfolio/game.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/safe.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
-                    </a>
-                </div>
+
             </div>
         </div>
     </section>
@@ -146,9 +130,7 @@
                     <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
-                    </a>
+   
                 </div>
             </div>
         </div>
@@ -210,7 +192,9 @@
     </section>
 
     <!-- Footer -->
+   
     <footer class="text-center">
+     <!--
         <div class="footer-above">
             <div class="container">
                 <div class="row">
@@ -246,6 +230,7 @@
                 </div>
             </div>
         </div>
+        -->
         <div class="footer-below">
             <div class="container">
                 <div class="row">
