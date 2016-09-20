@@ -16,8 +16,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
-
 Route::get('/{foo}', function ($foo) {
     return $foo;
 });
@@ -27,7 +25,7 @@ Route::get('/{foo}', function ($foo) {
 Route::get('/', function () {
     return view('welcome');
 });
-*/
+
 Route::get('/', function () {
     return view('index');
 });
@@ -36,3 +34,6 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('home');
 });
+
+*/
+Route::get('/', 'IndexController@index');

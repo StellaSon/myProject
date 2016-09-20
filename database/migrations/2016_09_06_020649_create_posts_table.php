@@ -14,6 +14,26 @@ class CreatePostsTable extends Migration
     public function up()
     {
         //
+		Schema::create('member', function (Blueprint $table) {
+            $table->increments('id');
+			$table->string('mb_id');
+			$table->string('name');
+			$table->integer('auth');
+			$table->string('tel');
+			$table->string('email')->unique();
+			$table->dateTime('join_date');
+			$table->timestamps();
+        });
+		
+		        //
+		Schema::create('login_history', function (Blueprint $table) {
+            $table->increments('id');
+			$table->string('mb_id');
+			$table->string('name');
+			$table->ipAddress('visitor');
+			$table->dateTime('login_date');
+			$table->timestamps();
+        });
     }
 
     /**
@@ -24,5 +44,8 @@ class CreatePostsTable extends Migration
     public function down()
     {
         //
+		  Schema::dropIfExists('member');
+		  Schema::dropIfExists('login_history');
+
     }
 }
